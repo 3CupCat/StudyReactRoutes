@@ -31,6 +31,7 @@ function App() {
           </li>
         </ul>
       </nav>
+      {location.state}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/books/*" element={<BookRoutes />} />
